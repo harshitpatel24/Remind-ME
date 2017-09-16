@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "781555387047",
+    "project_id": "remindme-ccb54"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781555387047:android:0ae57bb3613fb3b4",
+        "android_client_info": {
+          "package_name": "com.reminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781555387047-blkmt4587dnp2282s3le8s1dqm6ksd47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reminder",
+            "certificate_hash": "3c20c72d4c915ca1c1d41af6c1474feec195fbd9"
+          }
+        },
+        {
+          "client_id": "781555387047-lk9p5cos67j2pmnvvhvbbtgkcb2bhd7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx5Jjs1WFLlLtt_ffCVn9mxC6I72jKd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_item_quick_reminders"
+        android:icon="@drawable/ic_menu_quick_alarm"
+        android:title="@string/menu_quick_reminders"/>
+
+    <item
+        android:id="@+id/nav_item_inv_reminders"
+        android:icon="@drawable/ic_menu_investment"
+        android:title="@string/menu_investment_reminders"/>
+
+    <item android:title="Add Your">
+        <menu>
+            <item
+                android:id="@+id/nav_item_type"
+                android:icon="@drawable/ic_menu_type"
+                android:title="@string/lbl_type"/>
+            <item
+                android:id="@+id/nav_item_holder"
+                android:icon="@drawable/ic_menu_holder"
+                android:title="@string/menu_holders"/>
+
+        </menu>
+    </item>
+    <item android:title="See Your">
+        <menu>
+        <item
+            android:id="@+id/nav_item_today_event"
+            android:icon="@drawable/ic_menu_today_event"
+            android:title="@string/menu_today_event" />
+        <item
+            android:id="@+id/nav_item_inv_graph"
+            android:icon="@drawable/ic_menu_statistics"
+            android:title="@string/menu_investment_graph"/>
+            <item
+                android:id="@+id/nav_item_inv_completed_plan"
+                android:icon="@drawable/completed_icon"
+                android:title="@string/menu_completed_plan"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item
+            android:id="@+id/nav_item_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_settings"/>
+
+        <item
+            android:id="@+id/nav_item_feedback"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="@string/menu_feedback"/>
+
+        <item
+            android:id="@+id/nav_item_contact_us"
+            android:icon="@drawable/ic_menu_contact_us"
+            android:title="@string/menu_contact_us"/>
+
+        <item
+            android:id="@+id/nav_item_faq"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/menu_faq"/>
+        <item
+            android:id="@+id/nav_item_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="Help"/>
+        <item
+            android:id="@+id/nav_item_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share"/>
+
+        <item
+            android:id="@+id/nav_item_rta"
+            android:icon="@drawable/ic_menu_rating"
+            android:title="@string/menu_rta"/>
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_item_signout"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Sign Out"/>
+    </group>
+
+</menu>

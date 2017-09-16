@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/material_blue_grey_800"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Investment Reminders"
+        android:titleTextColor="@color/black"
+        />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart2"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/policygraph_policy_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mytoolbar"
+        android:layout_marginTop="14dp"
+        android:text="TextView"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/policygraph_policy_no"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:layout_below="@+id/policygraph_policy_name"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/policygraph_policy_no"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/policygraph_paid"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="TextView"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_weight="0.50" />
+
+        <TextView
+            android:id="@+id/policygraph_unpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

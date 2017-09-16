@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/material_blue_grey_800"
+    tools:context="com.reminder.RegisterActivity">
+
+  <!--  <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/material_blue_grey_800"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:logo="@mipmap/ic_launcher"
+        app:title="  Remind Me"
+        android:titleTextColor="@color/black"
+        />  -->
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remind Me"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textSize="40dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:id="@+id/etEmail"
+        android:hint=" Email"
+        android:drawableLeft="@drawable/email"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textColorHint="@color/wallet_bright_foreground_holo_dark"
+        android:backgroundTint="@color/wallet_bright_foreground_holo_dark"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:id="@+id/etMobile"
+        android:hint=" Mobile"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/mobile"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textColorHint="@color/wallet_bright_foreground_holo_dark"
+        android:backgroundTint="@color/wallet_bright_foreground_holo_dark"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textColorHint="@color/wallet_bright_foreground_holo_dark"
+        android:backgroundTint="@color/wallet_bright_foreground_holo_dark"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+         />
+
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:text="Back to login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvLogin"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

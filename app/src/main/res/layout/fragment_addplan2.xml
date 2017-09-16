@@ -1,0 +1,256 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:text="Enter Premium Details"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/textview_form_sum_assured"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:text="@string/form_sum_assured" />
+
+
+                <TextView
+                    android:id="@+id/textview_form_start_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:text="@string/form_start_date" />
+
+                <TextView
+                    android:id="@+id/textview_form_maturity_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:text="@string/form_maturity_date" />
+
+                <TextView
+                    android:id="@+id/textview_form_premium_interval"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:paddingBottom="10dp"
+                    android:text="@string/form_premium_interval" />
+
+                <TextView
+                    android:id="@+id/textview_form_interval_amount"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="4"
+                    android:text="@string/form_interval_amount" />
+
+                <TextView
+                    android:id="@+id/textview_form_premium_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="5"
+                    android:text="@string/form_premium_date" />
+
+                <TextView
+                    android:id="@+id/no_of_installment"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="6"
+                    android:text="No of installlment" />
+
+                <TextView
+                    android:id="@+id/textview_form_total_premium_amount"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="7"
+                    android:text="@string/form_total_premium_amount" />
+
+                <TextView
+                    android:id="@+id/textview_form_before_notify"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="8"
+                    android:text="@string/form_before_notify" />
+
+                <EditText
+                    android:id="@+id/edittext_form_sum_asssured"
+                    style="@style/BaseTheme"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:digits="0123456789.,"
+                    android:inputType="numberDecimal" />
+
+                <ImageView
+                    android:id="@+id/imageview_form_start_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_row="1"
+                    android:src="@drawable/calender" />
+
+                <EditText
+                    android:id="@+id/edittext_form_startdate"
+                    style="@style/BaseTheme"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:enabled="false"
+                    android:layout_marginLeft="45dp"
+                    android:layout_row="1" />
+
+                <ImageView
+                    android:id="@+id/imageview_form_maturity_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_row="2"
+                    android:src="@drawable/calender" />
+
+                <EditText
+                    android:id="@+id/edittext_form_maturity_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:enabled="false"
+                    android:layout_marginStart="45dp"
+                    android:layout_row="2" />
+
+                <Spinner
+                    android:id="@+id/spinner_form_premium_interval"
+                    style="@style/BaseTheme"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="3" />
+
+                <EditText
+                    android:id="@+id/edittext_form_interval_amount"
+                    style="@style/BaseTheme"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:inputType="number"
+                    android:layout_row="4" />
+
+                <ImageView
+                    android:id="@+id/imageview_form_premium_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_row="5"
+                    android:src="@drawable/calender" />
+
+                <EditText
+                    android:id="@+id/edittext_form_premium_date"
+                    style="@style/BaseTheme"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:enabled="false"
+                    android:layout_marginLeft="45dp"
+                    android:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/no_of_installment_dynamic"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="6"
+                    android:layout_marginStart="15dp"
+                    android:text="00" />
+
+                <TextView
+                    android:id="@+id/textview_form_total_premium_amount_dynamic"
+                    style="@style/BaseTheme"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_row="7"
+                    android:text="0000"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinner_form_before_notify"
+                    style="@style/BaseTheme"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="8" />
+
+
+                <Button
+                    android:id="@+id/button_submit"
+                    style="@style/BaseTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="30dp"
+                    android:layout_row="9"
+                    android:text="@string/button_submit" />
+
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/material_blue_grey_800"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Investment Reminders"
+        android:titleTextColor="@color/black"
+        />
+
+
+</FrameLayout>

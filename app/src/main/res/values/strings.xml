@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="lbl_quick_reminder">Quick Reminders</string>
+    <string name="lbl_user_name">Mr.CK</string>
+    <string name="menu_quick_reminders">Quick Reminders</string>
+    <string name="menu_holders">Holders</string>
+    <string name="lbl_type">Investment Plan</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_rta">Rate the App</string>
+    <string name="menu_share">Share the app</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_investment_reminders">Investment Reminders</string>
+    <string name="menu_investment_graph">Statistics</string>
+    <string name="frg_add_holder">AddHolderFragment</string>
+    <string name="frg_add_investment">AddInvestmentPlanFragment</string>
+    <string name="frg_contact_us">ContactUsFragment</string>
+    <string name="frg_investment_reminder">InvestmentFragment</string>
+    <string name="frg_quick_reminders">QuickFragment</string>
+    <string name="frg_settings">SettingsFragment</string>
+    <string name="frg_feedback">FeedbackFragment</string>
+    <string name="frg_faq">FAQFragment</string>
+    <string name="frg_help">HelpFragment</string>
+    <string name="frg_today_event">TodayEventFragment</string>
+    <string name="frg_statistics">StatisticsFragment</string>
+    <string name="menu_today_event">Today Event</string>
+    <string name="dialog_name">Name</string>
+    <string name="dialog_relation">In Relation with</string>
+    <string name="dialog_age">Age</string>
+
+    <string name="form_name">Name</string>
+    <string name="form_investment_plan">Investment Plan</string>
+    <string name="form_holder_name">Holder Name</string>
+    <string name="form_start_date">Start Date</string>
+    <string name="form_snooze_time">Interval of Snooze</string>
+    <string name="form_remind_day">Remind Day</string>
+    <string name="form_holdername">HolderName</string>
+    <string name="form_investmentplan">Investment Plan</string>
+    <string name="form_policy_no">Identification No</string>
+    <string name="form_sum_assured">Sum Assured</string>
+    <string name="form_premium_amount">Premium Amount</string>
+    <string name="form_payment_mode">Payment Mode</string>
+    <string name="form_maturity_date">Maturity Date</string>
+    <string name="form_term">Term</string>
+
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>Table Tennis</item>
+        <item>Basket Ball</item>
+        <item>Foot Ball</item>
+        <item>Volley Ball</item>
+        <item>Hockey</item>
+        <item>Swimming</item>
+
+        <item>Shuttle Badminton 2</item>
+        <item>Tennis 2</item>
+        <item>Table Tennis 2</item>
+        <item>Basket Ball 2</item>
+        <item>Foot Ball 2</item>
+        <item>Volley Ball 2</item>
+        <item>Hockey 2</item>
+        <item>Swimming 2</item>
+
+        <item>Shuttle Badminton 3</item>
+        <item>Tennis 3</item>
+        <item>Table Tennis 3</item>
+        <item>Basket Ball 3</item>
+        <item>Foot Ball 3</item>
+        <item>Volley Ball 3</item>
+        <item>Hockey 3</item>
+        <item>Swimming 3</item>
+
+        <item>Shuttle Badminton 4</item>
+        <item>Tennis 4</item>
+        <item>Table Tennis 4</item>
+        <item>Basket Ball 4</item>
+        <item>Foot Ball 4</item>
+        <item>Volley Ball 4</item>
+        <item>Hockey 4</item>
+        <item>Swimming 4</item>
+
+        <item>Shuttle Badminton 5</item>
+        <item>Tennis 5</item>
+        <item>Table Tennis 5</item>
+        <item>Basket Ball 5</item>
+        <item>Foot Ball 5</item>
+        <item>Volley Ball 5</item>
+        <item>Hockey 5</item>
+        <item>Swimming 5</item>
+    </string-array>
+
+    <string name="type_to_search">Type to Search</string>
+    <!--<string name="fb_app_id">1883429311871523</string>-->
+    <string name="fb_app_id">1884010731822867</string>
+
+    <string name="radiobutton_form_male">Male</string>
+    <string name="radiobutton_form_female">Female</string>
+    <string name="button_dropdown_submit">Submit</string>
+    <string name="form_button_next">Next</string>
+    <string name="button_submit">Submit</string>
+    <string name="drop_button_new_category">Add New Category</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_add_button">Submit</string>
+    <string name="form_description">Description</string>
+    <string name="description_hint">Enter Extra Details</string>
+    <string name="details_button_extra">Extra Details</string>
+    <string name="checkbox_paid">Paid</string>
+    <string name="extra_detail_update">Extra Details Update</string>
+    <string name="check_value">Check value</string>
+    <string name="form_gender">Gender</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="form_end_date">Maturity Date</string>
+    <string name="frg_CompletedPlan">CompletedPlan</string>
+    <string name="menu_completed_plan">CompletedPlan</string>
+    <string name="form_premium_interval">Premium Interval</string>
+    <string name="form_interval_amount">Interval Amount</string>
+    <string name="form_premium_date">Premium Date</string>
+    <string name="form_total_premium_amount">(T)Premium Amount</string>
+    <string name="form_before_notify">Before Notify</string>
+    <string name="policy_graph">Policy Graph</string>
+    <string name="form_main_holdername">Main Holder</string>
+</resources>

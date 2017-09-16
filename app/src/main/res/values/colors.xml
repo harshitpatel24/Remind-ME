@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="txtcolor">#000</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+
+
+    <color name="colorPrimary_text">#212121</color>
+    <color name="colorSecondary_text">#212121</color>
+    <color name="black">#000</color>
+
+    <!-- for multispinner -->
+    <color name="list_even">#AAAAAA</color>
+    <color name="list_odd">#E1E2E2</color>
+    <color name="list_selected">#455FB6</color>
+    <color name="list_header">#99979C</color>
+</resources>
